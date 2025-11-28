@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@keyframes blink {
+    0%, 50%, 100% { opacity: 1; }
+    25%, 75% { opacity: 0; }
+}
+
+.animate-blink {
+    animation: blink 1s step-start infinite;
+}
+
+.neon-text {
+    color: #00f0ff;
+    text-shadow:
+            0 0 1px #00f0ff,
+            0 0 2px #00f0ff,
+            0 0 7px #00f0ff,
+            0 0 14px #b583ff;
+}
