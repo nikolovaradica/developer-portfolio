@@ -1,7 +1,7 @@
 # Developer Portfolio
 
 A sleek, neon-accented developer portfolio built with **React, TypeScript, TailwindCSS, and Framer Motion**.  
-This website showcases my experience, projects, and skills through a clean UI, subtle animations, and a cyber-professional design language.
+This website showcases experience, projects, and skills through a clean UI and subtle animations.
 
 ---
 
