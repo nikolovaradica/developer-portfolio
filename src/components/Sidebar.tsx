@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { scroller } from "react-scroll";
 import { FaHome, FaCode, FaProjectDiagram, FaGraduationCap } from "react-icons/fa";
+import * as React from "react";
 
 const LINKS = [
     { id: "about", label: "[ ABOUT ]", icon: <FaHome size={16} /> },
@@ -12,7 +13,7 @@ const LINKS = [
 
 type SidebarProps = {
     open: boolean;
-    setOpen;
+    setOpen: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
 const Sidebar = ({ open, setOpen }: SidebarProps) => {
